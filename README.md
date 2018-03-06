@@ -55,6 +55,8 @@ We have released several trained models and corresponding prototxt files at [her
 
 The best model among the released ones yields 73.6% on PASCAL VOC 2012 test set.
 
+4. DeepLab-Weak-EM-Adapt at [here](http://ttic.uchicago.edu/~gpapan/deeplab/vgg128_noup_pool3_adaweak). Trained on PASCAL using only weak image-level labels. After DenseCRF, the model yields 39.0% performance on the PASCAL VOC 2012 test set.
+
 ### Experimental set-up
 
 1. The scripts we used for our experiments can be downloaded from this [link](https://ucla.box.com/s/4grlj8yoodv95936uybukjh5m0tdzvrf):
