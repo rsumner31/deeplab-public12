@@ -51,10 +51,20 @@ testset    = 'val';            %'val', 'test'
 
 model_name = 'vgg128_noup';
 
-feature_name = 'features';
+feature_name = 'features2';
 feature_type = 'fc8'; % fc8 / crf
 
 id           = 'comp6';
+
+
+id                 = 'comp6';
+seg_id             = id;
+seg_task_folder    = 'Segmentation';
+seg_gt_task_folder = 'SegmentationClass';
+
+cls_id             = 'comp2';
+cls_task_folder    = 'Main';
+cls_gt_task_folder = 'Main';
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% used for cross-validation
